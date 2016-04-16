@@ -1,0 +1,8 @@
+{
+	"guests":[
+      {"idGuest":1,
+      "login": "Momo",
+      "password":"abc"
+      }
+  ]
+}

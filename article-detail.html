@@ -1,0 +1,29 @@
+<h1>Article {{art.id}}</h1>
+<div>
+<section>
+	<header>
+      <h3>{{art.title}}</h3>
+		<img ng-src={{art.image}}></img> </header>
+<content>
+	{{art.description}}
+</content>
+<footer>Prix: {{art.prix}}</footer>
+</section>
+<br>
+<div class="stock">
+ <span> Reste en stock: {{art.quantite}} </span>
+</div>
+<br>
+<table>
+<tr>
+<td>	
+	<input id="qte" type="text" placeholder="Quantite voulue" ng-model="choix">
+</td>
+<td>
+<button class="btn btn-info btn-lg" ng-click="updatePanier(art.id,choix)">
+    Ajouter au Panier
+ </button>
+</td>
+</tr>
+</table>
+</div>

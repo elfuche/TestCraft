@@ -1,0 +1,85 @@
+body{
+margin: 0;
+padding: 0;
+}
+.navbar-inverse, .navbar-collapse, .navbar-left, .navbar-right{
+	background-color: #000099;
+}
+.mainHeader{
+	margin-bottom: 5%;
+}
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #fff;
+	display: inline-block;
+	/*
+	height: 30px;
+	padding: 5px 23px;
+	text-decoration: none; */
+}
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background: #0066FF;
+	color: #fff;
+	text-shadow: none !important;
+}
+	
+.mainHeader nav li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.carousel-inner img{
+	width:70%;
+}
+.produit{
+	margin-top:5%;
+	width:80%;
+	margin:0 auto;
+}
+.produit article{
+	float:left;
+	width:25%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+}
+.produit article img{
+	width:200px;
+	height:300px;
+}
+.row-footer{
+	margin: 0px auto;
+    padding: 20px 0px;
+    background-color: #AfAfAf;
+    width: 100%;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-left: 0;
+}
+.row-footer .marques{
+	margin-left: 25%;
+}
+.row-footer .marques img{
+	width:100px;
+	heigth:100px;
+	margin-right:10%;
+	border-radius: 30%;
+}
+.stock{
+	color:blueviolet;
+	font-weight: bold;
+}
+td #qte{
+	padding:5px;
+	border: 1px solid blue;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    width:100px;
+	height:45px;
+    margin-right:20px;
+    margin-left:5px;
+}
+#qte:focus{
+	border-color: #4da6ff;
+}

@@ -1,0 +1,102 @@
+ <!DOCTYPE html>
+<html lang="en" ng-app="surfApp">
+
+<head>
+    <title>Shooping du surf</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css"></link>
+</head> 
+<body>
+	<header class="mainHeader">
+    <nav role="navigation" class="navbar navbar-inverse">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">Surf Shopping</a>
+        </div>
+        <!-- Collection of nav links, forms, and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+            <form role="search" class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" placeholder="Search" class="form-control">
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="img/s1.jpe" alt="...">
+      <div class="carousel-caption">
+      	<h3>Accessoires</h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/s4.jpe" alt="...">
+      <div class="carousel-caption">
+      	<h3>Longboards</h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/s3.jpe" alt="...">
+      <div class="carousel-caption">
+      	<h3>Tee Shirts super cool</h3>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- Carousel -->
+	</header>
+
+
+ <div ng-app="app">
+ <ng-view></ng-view>
+ </div>
+
+
+<footer class="row-footer">
+	<div class="marques">
+<img src="img/billabong.png" alt=""/>
+<img src="img/fanatic.png" alt=""/>
+<img src="img/hurley.png" alt=""/>
+<img src="img/ripcurl.png" alt=""/>
+</div>
+</footer>
+</body>
+<script type="text/javascript" src="https://code.angularjs.org/1.5.3/angular.min.js"></script>
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28//angular-route.min.js"></script>
+ <script type="text/javascript" src="https://code.angularjs.org/1.5.3/angular-resource.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</html> 

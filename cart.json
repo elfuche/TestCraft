@@ -1,0 +1,9 @@
+{
+	"panier": [{
+		"idArticle": 4,
+		"quantite": 0
+	}, {
+		"idArticle": 5,
+		"quantite": 14
+	}]
+}

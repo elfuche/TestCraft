@@ -1,0 +1,14 @@
+
+<!-- Partie des articles -->
+<section="articles-part" ng-controller="prdCtrl">
+<div class="produit" ng-repeat="produit in articles">
+<article>
+	<header><h4>{{produit.title}}</h4></header>
+<figure>
+<img ng-src={{produit.image}} alt="{{produit.title}}" />
+<figcaption>{{produit.description}} <a href="">{{produit.title}}</a></figcaption>
+</figure>
+<footer><button ng-click="details(produit.id)">Détails</button></footer>
+</article>
+</div>
+</section>
