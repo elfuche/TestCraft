@@ -1,0 +1,41 @@
+<section class="mainContent" ng-app="app" ng-controller="loginCtrl">	
+<header>
+
+   <img src="image-logo.jpe"></img>
+  <h1>Sign in to Craft Academy</h1>
+</header>
+<content>
+<div class="form-content">
+<form class="form-connect" role="form" name="connectform" ng-submit="connect()">
+ <div class="form-group">
+   <input type="text" id="username" placeholder="Username or e-mail adress" ng-model="username">
+ </div>
+ 
+ <div class="form-group">
+   <input type="text" id="password" placeholder="Password" ng-model="password">
+ </div>
+ <div class="form-group">
+  <button type="submit" class="btn-submit" ng-disabled="connectForm.$invalid">Sign in</button>
+ </div>
+</form>
+</div>
+
+<div class="account-part">
+<table>
+<tr>	
+<td>New to Craft Academy?</td><td><a href="#">Create an Account</a></td>
+</tr>
+</table>
+</div>
+</content>
+<footer>
+<table class="terms">
+<tr>
+<td>Terms</td>
+<td>Privacy</td>
+<td>Security</td>
+<td>Contact</td>
+</tr>
+</table>
+</footer>
+</section>
